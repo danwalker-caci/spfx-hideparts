@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-bravo-hideparts-client-side-solution",
+    "id": "7b765c78-f1e7-47d5-8465-2a4fbbba67d1",
+    "version": "1.0.0.4",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-bravo-hideparts.sppkg"
+  }
+}

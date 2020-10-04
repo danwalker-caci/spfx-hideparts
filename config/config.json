@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-parts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hideParts/HidePartsWebPart.js",
+          "manifest": "./src/webparts/hideParts/HidePartsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "localizedResources": {
+    "HidePartsWebPartStrings": "lib/webparts/hideParts/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

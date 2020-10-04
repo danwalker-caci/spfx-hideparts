@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "8745862d-3aef-4b83-a51a-f2941b9412ed",
+  "alias": "HidePartsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "HideParts" },
+    "description": { "default": "A web part to hide other web parts." },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "HideParts",
+      "rows": [{"ID" : "00000000-0000-0000-0000-000000000000", "Role" : "Visitor"}, {"ID" : "00000000-0000-0000-0000-000000000001", "Role" : "Member"}]
+    }
+  }]
+}
